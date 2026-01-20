@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/* Header section design */
+
+.header{
+    width: 1280px;
+    margin: 0px auto;
+}
+/* navbar design */
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+
+}
+.navbar h1{
+    color: rgba(14, 14, 14, 1);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar button{
+    color: #006a50;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+.navbar button:hover{
+    background-color: #006a50;
+    color: white;
+    cursor:pointer;
+}
+
+/* banner design */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin: 20px 0px;
+}
+
+.banner h1{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner h2{
+color: rgba(14, 14, 14, 1);
+font-size: 56px;
+font-weight: 700;
+padding: 24px 0px;
+}
+
+.banner button{
+color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 600; 
+border-radius: 8px;
+background: #006a50;
+border-style:none;
+padding:17px 34px;
+
+}
+
+.banner button:hover{
+    background-color: white;
+    color: #006a50;
+    cursor: pointer;
+}

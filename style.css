@@ -9,7 +9,9 @@
     margin: 0px;
     padding:0px;
 }
-
+ body{
+    background-color: #F5F5F5;
+ }
 /* Header section design */
 
 .header{
@@ -87,4 +89,581 @@ padding:17px 34px;
     background-color: white;
     color: #006a50;
     cursor: pointer;
+}
+
+/* main Section Design */
+
+.main{
+    width: 1280px;
+    margin:0px auto;
+}
+
+
+/* pillar section Design */
+
+
+.pillar{
+
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.pillar h1{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:24px ;
+}
+
+.pillar > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap:32px;
+}
+
+.pillar div div{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding:24px;
+}
+
+.pillar div div h2{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+padding: 24px 0px 12px 0px;
+}
+
+.pillar div div p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+
+}
+
+
+/* Vision Section Design */
+
+.vision{
+
+    margin-bottom: 80px;
+
+}
+
+.vision h1{
+    color: rgb(35, 34, 34);
+
+font-size: 40px;
+font-weight: 700;
+}
+
+.vision p{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+padding:24px 0px 32px 0px;
+
+}
+
+.vision-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.digital{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+
+}
+
+.digital h2{
+    color: rgba(14, 14, 14, 0.8);
+
+font-size: 20px;
+font-weight: 700;
+padding-top: 24px;
+
+}
+.digital p{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+padding-top: 12px;
+padding-bottom:24px
+
+}
+
+.digital button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #5691f5;
+    padding:11px 20px;
+    border-style: none;
+
+}
+.digital button:hover{
+    background-color: white;
+    color:#5691f5;
+    cursor: pointer;
+}
+
+
+/* Green Enegry card */
+
+.green-anergy{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(198, 228, 214, 1);
+
+}
+
+.green-anergy h2{
+    color: rgba(14, 14, 14, 0.8);
+
+font-size: 20px;
+font-weight: 700;
+padding-top: 24px;
+
+}
+.green-anergy p{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+padding-top: 12px;
+padding-bottom:24px
+
+}
+
+.green-anergy button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #09A15C;
+    padding:11px 20px;
+    border-style: none;
+
+}
+.green-anergy button:hover{
+    background-color: white;
+    color:#09A15C;
+    cursor: pointer;
+}
+
+
+/* modern card design */
+
+.modern{
+    padding: 32px;
+    border-radius: 16px;
+    background: #f7ebcf;
+
+}
+
+.modern h2{
+    color: rgba(14, 14, 14, 0.8);
+
+font-size: 20px;
+font-weight: 700;
+padding-top: 24px;
+
+}
+.modern p{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+padding-top: 12px;
+padding-bottom:24px
+
+}
+
+.modern button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFC239;
+    padding:11px 20px;
+    border-style: none;
+
+}
+.modern button:hover{
+    background-color: white;
+    color:#FFC239;
+    cursor: pointer;
+}
+
+/* text section design */
+
+.text-section{
+    padding:24px 48px;
+    margin-top: 32px;
+    margin-bottom:80px;
+  
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1) url(assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position-x: 50px;
+background-position-y: 20px;
+
+}
+
+.text-section p{
+
+    color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+
+
+}
+
+.text-section h1{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+
+}
+
+.text-section :last-child{
+    padding: 10px 0px;
+}
+
+/* opinion section design */
+.opinion{
+    margin-bottom: 80px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+table  td{
+      border: 1px solid gray;
+      padding: 24px;
+}
+
+table  td:last-child {
+     text-align: center;
+    
+}
+
+select{
+    background-color:#C6E4D6;
+    padding: 10px 20px;
+}
+select option{
+    color: red;
+    
+    
+}
+
+/* News Section design */
+
+.news{
+    margin:32px 0px;
+    
+}
+
+.news h1{
+color: rgba(14, 14, 14, 1);
+font-size: 40px;
+font-weight: 700;
+padding-bottom: 8px;
+}
+
+.news > p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.news > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    padding:48px;
+    margin:20px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.news div div img{
+    border-radius: 24px;
+}
+ .news div div h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 8px;
+
+ }
+
+ .news div div p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+padding: 5px 0px;
+ }
+  .news div div button{
+    color: rgba(255, 255, 255, 1);
+
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+background: #006a50;
+padding: 13px 26px;
+border-style: none;
+margin-top: 15px;
+   
+ }
+
+ .news div div button:hover{
+    background-color: rgb(205, 204, 204);
+    color: #006a50;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-sizing: border-box;
+ }
+
+
+ /* News Section 2 design */
+
+.news-2{
+    margin:32px 0px;
+    
+}
+
+
+
+
+.news-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    padding:48px;
+    margin:20px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-bottom:80px;
+}
+
+.news-2 div  img{
+    border-radius: 24px;
+}
+ .news-2 div h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 8px;
+
+ }
+
+ .news-2 div p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+padding: 5px 0px;
+ }
+  .news-2 div  button{
+    color: rgba(255, 255, 255, 1);
+
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+background: #006a50;
+padding: 13px 26px;
+border-style: none;
+margin-top: 15px;
+   
+ }
+
+ .news-2 div  button:hover{
+    background-color: rgb(205, 204, 204);
+    color: #006a50;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-sizing: border-box;
+ }
+
+
+ /* Donate Section design */
+ .donate{
+    margin-bottom: 80px;
+    text-align: center;
+
+ }
+
+ .donate h1{
+ color: rgba(14, 14, 14, 1);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+padding-bottom: 24px;
+text-align: center;
+
+
+ }
+
+ .donate p{
+    width: 1104px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+
+ }
+
+ .donate div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+
+ }
+ .donate div h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding:40px;
+ }
+
+ .donate input{
+    width: 1032px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 0px;
+    display: block;
+    margin-bottom: 32px;
+    border-style: none;
+border-bottom: 1px solid gray;
+ }
+
+ .donate button{
+    color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 600;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgba(0, 106, 80, 1);
+padding:17px 34px;
+
+
+ }
+
+ /* subscribe section design */
+
+ .subscribe{
+
+    margin-bottom: 80px;
+    text-align: center;
+    border-radius: 24px;
+background: rgba(198, 228, 214, 1);
+padding: 80px 100px;
+ }
+
+ .subscribe div{
+    display: block;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+ }
+
+ .subscribe h1{
+    color: rgba(14, 14, 14, 1);
+
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding-bottom: 16px;
+
+ }
+
+ .subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+width: 622px;
+margin: 0px auto;
+padding-bottom: 28px;
+
+ }
+
+.subscribe input{
+    width: 600px;
+    padding: 18px;
+    border-style: none;
+    border-radius: 8px 0px 0px 8px;
+background: rgba(255, 255, 255, 1);
+}
+
+.subscribe label{
+    color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+border-radius: 0px 8px 8px 0px;
+background: rgba(0, 106, 80, 1);
+padding: 14px;
+}
+
+/* footer section design */
+
+.footer{
+  width:1280px;
+  box-sizing: border-box;
+    margin: 0px auto;
+    padding:50px 240px; 
+  
+
+}
+
+.footer h1{
+   color: rgba(14, 14, 14, 1);
+
+font-size: 32px;
+font-weight: 700;
+padding-bottom: 32px;
+
+text-align: center;
+}
+hr{
+    border: 1px solid gray;
+
+    
+}
+
+footer div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    
 }

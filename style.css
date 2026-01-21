@@ -410,6 +410,10 @@ table  td:last-child {
 select{
     background-color:#C6E4D6;
     padding: 10px 20px;
+    appearance: none;
+    background: url(assets/drop-down.png) no-repeat;
+    background-position: right 15px center;
+    cursor: pointer;
 }
 
 

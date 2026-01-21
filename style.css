@@ -340,19 +340,67 @@ font-weight: 600;
 }
 
 /* opinion section design */
+
+
 .opinion{
     margin-bottom: 80px;
+}
+
+.opinion h1{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+;
+
+}
+
+.opinion div{
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
 }
 
 table{
     border-collapse: collapse;
     width: 100%;
+
+  
     
 }
-table  td{
-      border: 1px solid gray;
+
+.table td, select, option{
+    color: rgba(14, 14, 14, 1);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+table th, td{
+      border: 1px solid rgb(143, 142, 142);
       padding: 24px;
 }
+
+ table tr th{
+
+background-color: #C6E4D6;
+color: rgba(14, 14, 14, 1);
+    
+ }
+
+ table  th:first-child{
+    text-align: left;
+    border-right: none;
+ }
+  table  th:last-child{
+
+    border-left: none;
+ }
+
+
 
 table  td:last-child {
      text-align: center;
@@ -363,11 +411,7 @@ select{
     background-color:#C6E4D6;
     padding: 10px 20px;
 }
-select option{
-    color: red;
-    
-    
-}
+
 
 /* News Section design */
 
@@ -526,16 +570,23 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin: 0px auto;
     margin-bottom: 32px;
+
 
  }
 
  .donate div{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding-bottom: 32px;
+    gap: 20px;
 
+ }
+
+ .donate div h2:hover{
+    background-color: #C6E4D6;
  }
  .donate div h2{
     color: rgba(14, 14, 14, 0.8);
@@ -546,13 +597,14 @@ text-align: center;
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
     padding:40px;
+    cursor: pointer;
  }
 
  .donate input{
     width: 1032px;
     margin: 0px auto;
     text-align: center;
-    padding: 10px 0px;
+    padding: 15px 0px;
     display: block;
     margin-bottom: 32px;
     border-style: none;
@@ -569,8 +621,18 @@ border-radius: 8px;
 background: rgba(0, 106, 80, 1);
 padding:17px 34px;
 
-
  }
+.donate button:hover{
+    background-color: rgb(205, 204, 204);
+    color: #006a50;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-sizing: border-box;
+ }
+
+
+
+ 
 
  /* subscribe section design */
 
@@ -666,4 +728,8 @@ footer div{
     gap: 50px;
     margin-top: 30px;
     
+}
+
+footer img{
+    cursor: pointer;
 }
